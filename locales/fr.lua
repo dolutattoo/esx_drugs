@@ -2,9 +2,9 @@ Locales ['fr'] = {
   -- weed
   ['weed_pickupprompt'] = 'appuyez sur ~INPUT_CONTEXT~ pour récolter un plan de ~g~Cannabis~s~.',
   ['weed_inventoryfull'] = 'vous n\'avez plus assez de place dans votre inventaire pour récolter du ~g~Cannabis~s~.',
-  ['weed_processprompt'] = 'appuyez ~INPUT_CONTEXT~ pour démarrer la ~g~tranformation du Cannabis~s~.',
+  ['weed_processprompt'] = 'appuyez sur ~INPUT_CONTEXT~ pour démarrer la ~g~tranformation du Cannabis~s~.',
   ['weed_processingstarted'] = 'transformation du ~g~Cannabis~s~ en ~g~Marijuana~s~...',
-  ['weed_processingfull'] = 'transformation ~r~annulée~s~. Votre inventaire est plein!',
+  ['weed_processingfull'] = 'transformation ~r~annulée~s~. Votre inventaire est ~r~plein~s~.',
   ['weed_processingenough'] = 'vous devez avoir ~b~3x~s~ ~g~Cannabis~s~ pour lancer une transformation.',
   ['weed_processed'] = 'vous avez transformé ~b~3x~s~ ~g~Cannabis~s~ en ~b~1x~s~ ~g~Marijuana~s~',
   ['weed_processingtoofar'] = 'la transformation a été ~r~annulée~s~. Vous êtes sorti de la zone.',
@@ -13,7 +13,7 @@ Locales ['fr'] = {
   ['dealer_prompt'] = 'appuyez sur ~INPUT_CONTEXT~ pour parler avec le ~r~Drug Dealer~s~.',
   ['dealer_title'] = 'drug Dealer',
   ['dealer_item'] = '$%s',
-  ['dealer_notenough'] = 't\'en as pas assez à vendre!',
+  ['dealer_notenough'] = 't\'en as pas assez pour pouvoir vendre!',
   ['dealer_sold'] = 'vous avez vendu ~b~%sx~s~ ~y~%s~s~ pour ~g~$%s~s~',
 
   -- license
@@ -24,7 +24,7 @@ Locales ['fr'] = {
   ['license_weed'] = 'permis de transformation de weed',
 
   -- blips
-  ['blip_weedfield'] = 'champs de weed',
+  ['blip_weedfield'] = 'champ de weed',
   ['blip_weedprocessing'] = 'transformation de weed',
-  ['blip_drugdealer'] = 'drug Dealer',
+  ['blip_drugdealer'] = 'Dealeur',
 }
